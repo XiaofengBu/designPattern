@@ -14,9 +14,9 @@ public class NotOwnerInvocationHandler implements InvocationHandler {
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         if (method.getName().startsWith("get")){
             return method.invoke(personBean, args);
-        }else if("setName".equals(method.getName())){
-            return method.invoke(personBean, args);
         }else if("setRating".equals(method.getName())){
+            return method.invoke(personBean, args);
+        }else if("setName".equals(method.getName())){
             throw new IllegalAccessException();
         }
         return null;
