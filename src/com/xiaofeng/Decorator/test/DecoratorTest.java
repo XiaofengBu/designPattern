@@ -6,6 +6,9 @@ import com.xiaofeng.Decorator.impl.MilkCover;
 import com.xiaofeng.Decorator.impl.Mocha;
 import org.junit.Test;
 
+/**
+ * 装饰者
+ */
 public class DecoratorTest {
     @Test
     public void decoratorTest(){

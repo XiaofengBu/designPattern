@@ -3,6 +3,9 @@ package com.xiaofeng.proxy;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
 
+/**
+ * 动态代理
+ */
 public class ProxyTest {
     public static void main(String[] args) {
 

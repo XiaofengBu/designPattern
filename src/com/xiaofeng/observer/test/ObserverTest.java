@@ -5,6 +5,9 @@ import com.xiaofeng.observer.impl.Server;
 import com.xiaofeng.observer.impl.Woman;
 import org.junit.Test;
 
+/**
+ * 观察者
+ */
 public class ObserverTest {
     @Test
     public void observerTest(){
